@@ -1,0 +1,22 @@
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/coverage/
+# Local credentials
+.env
+.env.*
+!.env.example
+# Local shop data, backups and generated reports
+*.log
+logs/
+*.dump
+*.backup
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+backups/
+graphify-out/
+**/graphify-out/
+.DS_Store
+Thumbs.db
